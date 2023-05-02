@@ -34,3 +34,24 @@ body{
     top: 50%;
     transform: translate(-50%,-50%);
 }
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30%;
+}
+
+.image-container img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .heading {
+        font-size: 20px;
+    }
+
+    .image-container{
+        margin: 10px 15px;
+    }
+}
